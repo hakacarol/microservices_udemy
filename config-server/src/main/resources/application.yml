@@ -15,8 +15,8 @@ spring:
      server:
        git:
          uri: https://github.com/hakacarol/microservices_udemy
-         #username:
-         #password:
+         username: 'hakacarol'
+         password: 'hakamada0889'
          default-label: main
          search-paths:
            - 'cloud-config'

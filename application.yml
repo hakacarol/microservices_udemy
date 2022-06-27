@@ -14,4 +14,4 @@ management:
 #propriedade customizada
 greeting-service:
  greeting: "Hello"
- default-value: "Dev :)"
+ default-value: "World :) (default)"
