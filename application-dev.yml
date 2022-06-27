@@ -1,0 +1,17 @@
+spring:
+ application:
+   name: greeting-service
+
+#configurações do actuator
+#actuator-> permite ver algumas configurações da aplicação
+management:
+ endpoints:
+  web:
+   exposure:
+    include:
+    - '*'
+
+#propriedade customizada
+greeting-service:
+ greeting: "Hello"
+ default-value: "Dev :)"

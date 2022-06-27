@@ -1,7 +1,12 @@
 #porta do server
 server:
  port: 8888
- 
+
 spring:
  application:
-   name: config-server
+   name: cloud-config
+
+# irá ler os arquivos.yml localmente
+ profiles:
+   active:
+   - native
