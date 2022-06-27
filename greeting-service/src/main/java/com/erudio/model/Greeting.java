@@ -1,4 +1,4 @@
-package com.udemy.startup;
+package com.erudio.model;
 
 public class Greeting {
 
