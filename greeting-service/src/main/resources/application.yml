@@ -1,6 +1,20 @@
+#configurar a porta
+server:
+ port: 8080
+
 spring:
  application:
    name: greeting-service
+ config:
+  import:
+  - optional:configserver:http://localhost:8888/
+#adicionar a configuração de qual profile irá ser executado
+ cloud:
+  config:
+   profile: qa
+#   profile: dev
+#   profile: perf
+#   profile: prod
 
 #configurações do actuator
 #actuator-> permite ver algumas configurações da aplicação
